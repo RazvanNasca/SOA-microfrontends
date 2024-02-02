@@ -1,6 +1,6 @@
 # SOA-microfrontends by Nașca Răzvan-Alexandru
 
-### MicroFrontends Application Documentation
+## MicroFrontends Application Documentation
 This document provides an overview of the Micro Frontends application, its architecture and how to run and develop it.
 
 # Overview 
@@ -15,9 +15,9 @@ The MicroFrontends application architecture follows the MicroFrontends pattern. 
 The Host MicroFrontend is the main application and is responsible for rendering the navigation menu and loading the other microfrontends as required. 
 
 All this microfrontends run on different ports:
-1.	Host MicroFrontend: 3000
-2.	Products MicroFrontend: 3001
-3.	Cart MicroFrontend: 3002
+1.	Host MicroFrontend: `3000`
+2.	Products MicroFrontend: `3001`
+3.	Cart MicroFrontend: `3002`
 
 
 # Installation
@@ -28,7 +28,7 @@ All this microfrontends run on different ports:
 3.	Docker Compose
 
 From the root project, run the following commands:
-1.	docker-compose build
-2.	docker-compose up
+1.	`docker-compose build`
+2.	`docker-compose up`
 
-Than open your browser and navigate `"http://localhost:3000"`
+Than open your browser and navigate `http://localhost:3000`
