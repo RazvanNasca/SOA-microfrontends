@@ -30,4 +30,5 @@ All this microfrontends run on different ports:
 From the root project, run the following commands:
 1.	docker-compose build
 2.	docker-compose up
+
 Than open your browser and navigate `"http://localhost:3000"`
