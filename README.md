@@ -3,7 +3,7 @@
 ### MicroFrontends Application Documentation
 This document provides an overview of the Micro Frontends application, its architecture and how to run and develop it.
 
-## Overview 
+# Overview 
 The MicroFrontends application is a web application written in ReactJs that uses microfrontends to create a modular architecture. It consists of three microfrontends:
 1.	Host MicroFrontend: The main application and the entry point for the user
 2.	Products MicroFrontend: Display the products
@@ -20,9 +20,9 @@ All this microfrontends run on different ports:
 3.	Cart MicroFrontend: 3002
 
 
-## Installation
+# Installation
 
-# Prerequisites:
+## Prerequisites:
 1.	NodeJS
 2.	Docker
 3.	Docker Compose
